@@ -1,0 +1,29 @@
+{
+    "node": true,
+    "bitwise": true,
+    "eqeqeq": true,
+    "esversion": 5,
+    "forin": true,
+    "freeze": true,
+    "latedef": true,
+    "nonew": true,
+    "notypeof": true,
+    "shadow": "outer",
+    /* not the time for strict yet */
+    /*"strict": "global",*/
+    "undef": true,
+    /* relax options */
+    "asi": true,
+    "laxbreak": true,
+    "laxcomma": true,
+    "sub": true,
+    "globals": {
+        /* mocha */
+        "describe": false,
+        "before": false,
+        "beforeEach": false,
+        "afterEach": false,
+        "after": false,
+        "it": false
+    }
+}

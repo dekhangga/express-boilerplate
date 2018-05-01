@@ -1,0 +1,15 @@
+.DS_Store
+logs
+*.log
+npm-debug.log*
+node_modules
+build
+config/env.json
+config/test.env.json
+config/docker.env.json
+/.idea/
+client/uploads
+test/coverage
+config/database.json
+database.db
+database.db-journal

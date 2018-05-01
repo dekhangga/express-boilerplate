@@ -1,0 +1,20 @@
+{
+    "env": "development",
+    "hostname": "localhost",
+    "environment": "development",
+    "port": 3000,
+    "ajax": {
+        "origins" : [
+            "http://localhost:9000",
+            "http://localhost:3001",
+            "http://localhost:3002"
+        ]
+    },
+    "sequelize": {
+        "logging": true
+    },
+    "app": {
+        "debug": true,
+        "request_limit": "50mb"
+    }
+}

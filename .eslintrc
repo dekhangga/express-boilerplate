@@ -1,0 +1,148 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "module",
+  },
+
+  "env": {
+    "node": true,
+  },
+
+  "rules": {
+    /**
+     * Styles
+     */
+    // http://eslint.org/docs/rules/max-len
+    "max-len": [2, {
+      "code": 120,
+      "tabWidth": 4,
+      "ignoreUrls": true
+    }],
+
+    // http://eslint.org/docs/rules/indent
+    "indent": [2, 4, {
+      "SwitchCase": 1,
+      "VariableDeclarator": 1,
+      "outerIIFEBody": 1,
+      "FunctionDeclaration": {
+        "parameters": 1,
+        "body": 1
+      }
+    }],
+
+    // http://eslint.org/docs/rules/object-curly-spacing
+    "object-curly-spacing": [2, "always"],
+
+    // http://eslint.org/docs/rules/array-bracket-spacing
+    "array-bracket-spacing": [2, "never", {
+      "singleValue": false,
+      "objectsInArrays": false,
+      "arraysInArrays": false,
+    }],
+
+    "camelcase": [2, {
+      "properties": "never"
+    }],
+
+    "comma-spacing": [2, {
+      "before": false,
+      "after": true
+    }],
+
+    "comma-style": [2, "last"],
+
+    "consistent-this": 0,
+
+    "eol-last": [2, "always"],
+
+    "func-call-spacing": [2, "never"],
+
+    "func-names": 1,
+
+    "func-style": [0, "expression"],
+
+    "id-blacklist": 0,
+
+    "id-length": 0,
+
+    "id-match": 0,
+
+    "semi": [2, "always"],
+
+    /**
+     * Node
+     */
+
+    "no-process-env": 0,
+
+    "no-restricted-modules": 0,
+
+    "no-path-concat": 2,
+
+    "no-new-require": 2,
+
+    "no-mixed-requires": [0, false],
+
+    "handle-callback-err": 0,
+
+    "callback-return": 0,
+
+    /**
+     * Best Practices
+     */
+    // http://eslint.org/docs/rules/complexity
+    "complexity": [0, 11],
+
+    // http://eslint.org/docs/rules/consistent-return
+    "consistent-return": 2,
+
+    // http://eslint.org/docs/rules/dot-notation
+    "dot-notation": [2, {
+      "allowKeywords": true,
+    }],
+
+    // http://eslint.org/docs/rules/dot-location
+    "dot-location": [2, "property"],
+
+    // http://eslint.org/docs/rules/eqeqeq
+    "eqeqeq": [2, "always", { "null": "ignore" }],
+
+    // http://eslint.org/docs/rules/guard-for-in
+    "guard-for-in": 2,
+
+    // http://eslint.org/docs/rules/no-alert
+    "no-alert": 1,
+
+    // http://eslint.org/docs/rules/no-caller
+    "no-caller": 2,
+
+    /**
+     * Variables
+     */
+    "no-shadow": [2, {
+      "allow": ["req", "res", "next"]
+    }],
+
+    "no-undef": 1,
+
+    "no-undefined": 0,
+
+    "no-unused-vars": [2, {
+      "vars": "local",
+      "args": "after-used"
+    }],
+
+    /**
+     * Errors
+     */
+    "no-console": 1,
+
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "always-multiline",
+    }],
+  }
+}
