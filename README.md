@@ -1,4 +1,4 @@
-# Backend Reseller
+# Express Boilerplate
 
 ## Installation
 
@@ -59,6 +59,6 @@ $ nodemon app.js
 ```
 Server will run by default on http://localhost:3000/. The port can be changed in file .env.json.
 Sample API:
-GET http://localhost:3000/api/users
-POST http://localhost:3000/api/register with body {"username": "admin", "password": "123456"}
-POST http://localhost:3000/api/uploads with params: file
+* GET http://localhost:3000/api/users
+* POST http://localhost:3000/api/register with body {"username": "admin", "password": "123456"}
+* POST http://localhost:3000/api/uploads with params: file
