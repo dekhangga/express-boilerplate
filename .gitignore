@@ -8,7 +8,6 @@ config/env.json
 config/test.env.json
 config/docker.env.json
 /.idea/
-client/uploads
 test/coverage
 database.db
 database.db-journal
