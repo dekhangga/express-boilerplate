@@ -1,0 +1,7 @@
+{
+  "development": {
+    "driver": "sqlite",
+    "filename": "./database.db",
+    "multipleStatements": true
+  }
+}
